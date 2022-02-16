@@ -1,0 +1,24 @@
+version: '3'
+
+# Define services
+services:
+  db:
+    image: mysql
+    container_name: learning-python-db
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - ./.docker/database-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: learning-python-db-admin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_HOST=learning-python-db
+      - PMA_PORT=3306
