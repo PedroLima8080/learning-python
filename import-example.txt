@@ -1,0 +1,2 @@
+Pedrão Teste;pedro@gmail.com;2003-07-11;17021-000;Bauru;São Geraldo;Sylas Ferraz Sampaio
+Joãozão Teste;joaozao@gmail.com;2003-07-11;17021-100;Bauru;São Geraldo;Alameda Amadeu Cazellato

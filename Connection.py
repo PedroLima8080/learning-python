@@ -4,7 +4,7 @@ class Connection:
     _connection = None;
 
     def __init__(self):
-        connection_str = f'mysql+pymysql://root:root@localhost:3306/learning-py';
+        connection_str = f'mysql+pymysql://root:root@localhost:3306/learning-py?charset=utf8mb4';
         engine = db.create_engine(connection_str);
         connection = engine.connect();
         self._connection = connection;

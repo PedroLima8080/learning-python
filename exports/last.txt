@@ -1,0 +1,4 @@
+Pedrão;pedro@gmail.com;2003-07-11;17021-000;Bauru;Parque São Geraldo;Rua Sylas Ferraz Sampaio
+Ana Laurão;ana.laura@gmail.com;2003-07-11;17021-000;Bauru;Parque São Geraldo;Rua Sylas Ferraz Sampaio
+Joãozão;jaozao@gmail.com;2003-07-11;17021-100;Bauru;Parque São Geraldo;Alameda Amadeu Cazellato
+Otherzão;other@gmail.com;2003-07-11;17021-000;Bauru;Parque São Geraldo;Rua Sylas Ferraz Sampaio
